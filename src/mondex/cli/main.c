@@ -9,7 +9,7 @@ void write_usage() {
   printf("Usage: %s\n", PROGRAM);
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char *argv[]) {
   if (argc < MINIMUM_ARGUMENT_COUNT) {
     write_usage();
     return EX_USAGE;
