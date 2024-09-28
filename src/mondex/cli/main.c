@@ -6,7 +6,7 @@
 const int MINIMUM_ARGUMENT_COUNT = 2;
 
 void write_usage() {
-  printf("Usage: %s\n", PROGRAM);
+  printf("usage: %s\n", PROGRAM);
 }
 
 int main(int argc, char *argv[]) {
